@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.zhaoshenghua.testcustomview.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
+    <!--<com.zhaoshenghua.testcustomview.MyCustomView-->
+        <!--android:id="@+id/cv"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"/>-->
+
+    <!--<com.zhaoshenghua.testcustomview.TitleView-->
+        <!--android:id="@+id/titleView"-->
+        <!--android:layout_toRightOf="@id/conut"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <!--<com.zhaoshenghua.testcustomview.MyListView-->
+        <!--android:id="@+id/my_list_view"-->
+        <!--android:layout_below="@id/conut"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" >-->
+    <!--</com.zhaoshenghua.testcustomview.MyListView>-->
+
+    <com.zhaoshenghua.testcustomview.Test
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:background_color="@color/colorAccent"
+        app:size="24dp"/>
 </RelativeLayout>
