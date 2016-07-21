@@ -4,19 +4,24 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.zhaoshenghua.testcustomview.TopBar
-        android:background="#f00"
-        android:id="@+id/topBar"
+    <com.zhaoshenghua.testcustomview.ScoreView
+        android:id="@+id/score_View"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        app:myTitle="美图浏览"
-        app:myTitleTextSize="15sp"
-        app:myTitleTextColor="@android:color/black"
-        app:rightText="下一张"
-        app:rightBackground="#f0f"
-        app:leftText="上一张"
-        app:leftBackground="#ff0"
-        />
+        android:layout_height="wrap_content" />
+
+    <!--<com.zhaoshenghua.testcustomview.TopBar-->
+        <!--android:background="#f00"-->
+        <!--android:id="@+id/topBar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--app:myTitle="美图浏览"-->
+        <!--app:myTitleTextSize="15sp"-->
+        <!--app:myTitleTextColor="@android:color/black"-->
+        <!--app:rightText="下一张"-->
+        <!--app:rightBackground="#f0f"-->
+        <!--app:leftText="上一张"-->
+        <!--app:leftBackground="#ff0"-->
+        <!--/>-->
 
     <!--<com.zhaoshenghua.testcustomview.FlashTextView-->
         <!--android:layout_marginTop="30dp"-->
