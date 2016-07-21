@@ -4,6 +4,18 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <com.zhaoshenghua.testcustomview.FlashTextView
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android程序员日记 "
+        android:padding="5dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+         />
+
     <!--<com.zhaoshenghua.testcustomview.MyCustomView-->
         <!--android:id="@+id/cv"-->
         <!--android:layout_width="100dp"-->
@@ -22,11 +34,11 @@
         <!--android:layout_height="wrap_content" >-->
     <!--</com.zhaoshenghua.testcustomview.MyListView>-->
 
-    <com.zhaoshenghua.testcustomview.Test
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        app:background_color="@color/colorAccent"
-        app:size="24dp"/>
+    <!--<com.zhaoshenghua.testcustomview.Test-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--app:background_color="@color/colorAccent"-->
+        <!--app:size="24dp"/>-->
 </RelativeLayout>
